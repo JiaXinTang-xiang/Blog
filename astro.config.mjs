@@ -1,13 +1,10 @@
-// @ts-check
+// astro.config.mjs
 import { defineConfig } from 'astro/config';
-
-import { defineConfig } from 'astro/config';
-
-const REPO_BASE = '/Blog/';  // 仓库名
 
 export default defineConfig({
-  site: 'https://JiaXinTang-xiang.github.io',  // GitHub Pages 地址
-  base: REPO_BASE,
+  site: 'https://JiaXinTang-xiang.github.io',
+  base: '/Blog/',
   trailingSlash: 'always',
-  output: 'static',
+  output: 'static'
+  // ❌ 完全删除 experimental 配置块
 });
