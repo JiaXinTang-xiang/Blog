@@ -6,5 +6,4 @@ export default defineConfig({
   base: '/Blog/',
   trailingSlash: 'always',
   output: 'static'
-  // ❌ 完全删除 experimental 配置块
 });
